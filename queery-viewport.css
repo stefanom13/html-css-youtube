@@ -1,0 +1,24 @@
+/* VIEwPORT 1200PX */
+
+@media screen and (max-width: 1200px) {
+  .play-list {
+    flex-wrap: wrap;
+    gap: 20px 0;
+  }
+
+  .play-list-item {
+    width: 32%;
+  }
+
+  .categories li:nth-child(10) {
+    display: none;
+  }
+}
+
+/* VIEWPORT 1110px */
+
+@media screen and (max-width: 1110px) {
+  .categories li:nth-child(9) {
+    display: none;
+  }
+}
