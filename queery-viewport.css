@@ -19,33 +19,72 @@
 
 @media screen and (max-width: 1024px) {
   .play-list-item {
-    width: 44%; */
+    width: 44%;
   }
-   .main-container {
+  .main-container {
     width: 100vh;
   }
   .side-bar {
     width: 75px;
   }
-  .menu-item{
+  .menu-item {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    }
+  }
 
   .nn {
     display: none;
   }
 
-  .widget{
-      border-bottom: 0;
-      padding: 0;
+  .widget {
+    border-bottom: 0;
+    padding: 0;
   }
 
-  .menu-item .icon{
-      margin: 0;
-      padding: 5px 0 ;
+  .menu-item .icon {
+    margin: 0;
+    padding: 5px 0;
   }
 
+  .categories li:nth-child(6) {
+    display: none;
+  }
+  .categories li:nth-child(7) {
+    display: none;
+  }
+  .categories li:nth-child(8) {
+    display: none;
+  }
+}
+
+/* VIEWPORT 860 */
+
+@media screen and (max-width: 860px) {
+  .categories li:nth-child(4) {
+    display: none;
+  }
+}
+
+/* VIEWPORT 768 */
+
+@media screen and (max-width: 768px) {
+  .play-list-item {
+    width: calc(100%-70px);
+  }
+}
+
+/* VIEWPORT 630px */
+
+@media screen and (max-width: 630px) {
+  .categories li:nth-child(3) {
+    display: none;
+  }
+  .side-bar {
+    display: none;
+  }
+  .play-list-item {
+    width: 100%;
+  }
 }
