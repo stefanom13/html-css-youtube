@@ -26,6 +26,11 @@ header {
   justify-content: space-between;
 }
 
+a {
+  text-decoration: none;
+  color: gray;
+}
+
 /* header  */
 
 .logo {
@@ -48,11 +53,86 @@ header {
   filter: invert(1);
 }
 
+/* search-bar  */
+
+.search-space {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.search-bar {
+  width: 90vh;
+  height: 35px;
+  padding: 0 8px;
+  border: 1px solid grey;
+  font-size: 14px;
+  background-color: whitesmoke;
+}
+
+.search-bar:hover {
+  background-color: sandybrown;
+}
+
+.search-but a {
+  color: black;
+  padding: 7px 15px;
+  background-color: rgb(213, 210, 210);
+  border: 1px solid;
+}
+
+.search-vocal {
+  margin-left: 5px;
+  font-size: 15px;
+  background-color: rgb(213, 210, 210);
+  border-radius: 999px;
+  padding: 0 10px;
+}
+.search-vocal a {
+  width: 35px;
+  line-height: 35px;
+  text-align: center;
+  background-color: rgb(213, 210, 210);
+  color: black;
+}
+
+/* cta header  */
+
+.cta-header {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  gap: 20px;
+}
+
+.status-profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1px solid;
+  text-align: center;
+  line-height: 30px;
+  background-color: green;
+  color: white;
+  overflow: hidden;
+}
+
+.video-call:hover {
+  font-size: 40px;
+}
+.grills:hover {
+  font-size: 40px;
+}
+.news:hover {
+  font-size: 40px;
+}
+
 /* main  */
 
 main {
   display: flex;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   flex-grow: 1;
 }
 
@@ -60,6 +140,7 @@ main {
   width: 240px;
   flex-shrink: 0;
   font-size: 12px;
+  height: calc(100vh - 50px);
 }
 
 .widget {
@@ -124,6 +205,7 @@ main {
   background-color: white;
   gap: 15px;
   padding: 15px 25px;
+  font-size: 14px;
 }
 
 .categories li {
@@ -134,6 +216,14 @@ main {
   line-height: 30px;
   white-space: nowrap;
   flex-shrink: 0;
+  border-radius: 999px;
+}
+.categories li:hover {
+  background-color: #e5e5e5;
+}
+.categories li:active {
+  background-color: black;
+  color: aliceblue;
 }
 
 .play-list-wrapper {
@@ -169,6 +259,20 @@ main {
 .card-body img {
   border-radius: 50%;
   width: 30px;
+}
+
+.info {
+  font-size: 14px;
+  font-weight: 500;
+}
+.title-video {
+  line-height: 35px;
+}
+
+.autore-video {
+  font-size: 12px;
+  font-weight: normal;
+  padding-top: 15px;
 }
 
 .condition {

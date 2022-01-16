@@ -18,6 +18,15 @@
 /* VIEWPORT 1024 */
 
 @media screen and (max-width: 1024px) {
+  .search-bar {
+    width: 40vh;
+    height: 35px;
+    padding: 0 8px;
+    border: 1px solid black;
+    font-size: 14px;
+    background-color: whitesmoke;
+  }
+
   .play-list-item {
     width: 44%;
   }
@@ -86,5 +95,8 @@
   }
   .play-list-item {
     width: 100%;
+  }
+  .search-space {
+    display: none;
   }
 }
