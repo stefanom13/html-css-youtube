@@ -87,9 +87,6 @@
 /* VIEWPORT 630px */
 
 @media screen and (max-width: 630px) {
-  .categories li:nth-child(4) {
-    display: none;
-  }
   .side-bar {
     display: none;
   }
@@ -98,5 +95,14 @@
   }
   .search-space {
     display: none;
+  }
+}
+
+@media screen and (max-width: 260px) {
+  header {
+    width: 100%;
+  }
+  main {
+    width: 100%;
   }
 }
