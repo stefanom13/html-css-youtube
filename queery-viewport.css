@@ -76,14 +76,6 @@
   }
 }
 
-/* VIEWPORT 768 */
-
-@media screen and (max-width: 768px) {
-  .play-list-item {
-    width: calc(100%-70px);
-  }
-}
-
 /* VIEWPORT 630px */
 
 @media screen and (max-width: 630px) {
